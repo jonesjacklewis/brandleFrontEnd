@@ -1,1 +1,66 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+    scroll-behavior: smooth;
+  }
+  
+  .languageName{
+    text-transform: uppercase;
+    font-size: 60px;
+  }
+  
+  
+  
+  .viewContainer{
+    padding-left: 1%;
+  }
+  
+  .content{
+    padding-top: 1%;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    font-size: 18px;
+    overflow: hidden;
+  }
+  
+  .projectList{
+    margin-right: 10px;
+    font-size: 14px;
+    text-decoration: none;
+    width: 100%;
+    background-color: #0074D9 !important;
+    color: white !important;
+  }
+  
+  .projectList:hover{
+    transform: scale(1.1);
+    font-weight: bold;
+  }
+  
+  body {
+    margin: 0;
+    height: 100%;
+    overflow: auto;
+    font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+  
+  .primary-blue {
+    color: #0074D9 !important;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+  
+  .primary-blue-menu-item{
+    background-color: #0074D9;
+    color: white;
+  }

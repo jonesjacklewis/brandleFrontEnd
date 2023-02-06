@@ -1,0 +1,27 @@
+.col {
+    display: flex;
+  }
+  
+  .col div {
+    flex: 1
+  }
+  
+  .square {
+    width: 200px;
+    height: 200px;
+    background-color: #000;
+    margin: 10px;
+  }
+  
+  .col2{
+      padding-left: 10%;
+  }
+  
+  mat-form-field{
+      /* Cause Link Break */
+      display: block;
+  }
+  
+  .full-width-button{
+      width: 100%;
+  }
